@@ -608,6 +608,7 @@ body.rtl .alert .close {
   padding-left: 10px;
 }
 #section-top-bar #block-locale-language ul:not(.contextual-links) li a {
+  font-size: 12px;
   line-height: 40px;
 }
 #section-top-bar #block-locale-language ul:not(.contextual-links) li a:hover {

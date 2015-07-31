@@ -590,6 +590,40 @@ body.rtl .alert .close {
 #section-top-bar.color .fa {
   color: #FFF !important;
 }
+#section-top-bar #block-locale-language {
+  width: 100%;
+  height: 40px;
+  margin-left: 120px;
+  position: absolute;
+  top: 0;
+}
+#section-top-bar #block-locale-language ul:not(.contextual-links) {
+  padding: 0;
+}
+#section-top-bar #block-locale-language ul:not(.contextual-links) li {
+  border-left: 1px solid #ECEEF0;
+  display: inline-block;
+  font-size: 12px;
+  margin-right: 5px;
+  padding-left: 10px;
+}
+#section-top-bar #block-locale-language ul:not(.contextual-links) li a {
+  line-height: 40px;
+}
+#section-top-bar #block-locale-language ul:not(.contextual-links) li a:hover {
+  color: #F5D250;
+}
+#section-top-bar #block-locale-language ul:not(.contextual-links) li a.active {
+  color: #d3d3d3;
+}
+#section-top-bar #block-locale-language ul:not(.contextual-links) li.first {
+  border-left: none;
+  padding-left: 0;
+  padding-right: 20px;
+}
+#section-top-bar #block-locale-language .block-title {
+  display: none;
+}
 .region-call-us .call-us .fa {
   color: #5F8CB4;
 }
