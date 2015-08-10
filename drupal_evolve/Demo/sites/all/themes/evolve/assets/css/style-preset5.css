@@ -528,6 +528,15 @@ h1.parallex-slider-title.white {
 .bg-white {
   background-color: #fff;
 }
+#section-extra-bottom-1 {
+  display: none;
+}
+#section-extra-bottom-2 {
+  margin-top: 0 !important;
+}
+#section-content-top {
+  margin-bottom: 40px;
+}
 body.rtl .list-1 li:after,
 body.rtl .list-2 li:after,
 body.rtl .list-3 li:after,
